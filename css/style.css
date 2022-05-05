@@ -1,0 +1,20 @@
+#body{
+    background-color: rgb(35, 44, 44)
+}
+#welcome-section{
+    text-align: center;
+    background-color: rgb(143, 153, 153);
+    max-width: 100%;
+}
+#image1{
+    width: 700px;
+    height: 400px;
+}
+#image2{
+    width: 650px;
+    height: 400px;
+    
+}
+#projects{
+    text-align: center;
+}
