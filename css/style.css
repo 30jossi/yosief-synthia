@@ -1,3 +1,7 @@
+*
+{
+ margin: auto;
+}
 #body{
     background-color: rgb(198, 206, 221)
 }
@@ -35,9 +39,30 @@
 h2{
     font-size: 75%;
 }
+
+#profile-tile{
+text-decoration: none;
+}
+
 #profile-link{
     font-size: 350%;
     text-align: center;
     background-color: rgb(207, 207, 230);
     width: 100%;
+    text-decoration: none;
 }
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  
+    code {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }
+  
